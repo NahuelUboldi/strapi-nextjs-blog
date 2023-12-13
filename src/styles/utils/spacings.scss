@@ -1,0 +1,25 @@
+// margins
+$marginTop: (30);
+
+@each $size in $marginTop {
+  .mt-#{$size} {
+    padding-top: #{$size}px;
+  }
+}
+
+// paddings
+$paddingTop: (80);
+
+@each $size in $paddingTop {
+  .pt-#{$size} {
+    padding-top: #{$size}px;
+  }
+}
+
+$paddingBottom: (80);
+
+@each $size in $paddingBottom {
+  .pt-#{$size} {
+    padding-bottom: #{$size}px;
+  }
+}
